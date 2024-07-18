@@ -1,0 +1,48 @@
+/* Basic styling for readability */
+body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #search-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #customer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #customer-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer; /* Indicate clickable list items */
+  }
+  /* Default styles */
+#transaction-chart {
+  width: 100%;
+  height: 400px;
+}
+
+/* Responsive styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  #transaction-chart {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+/* Responsive styles for screens smaller than 400px */
+@media (max-width: 400px) {
+  #transaction-chart {
+    width: 100%;
+    height: 200px;
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Transactions</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    #transaction-chart {
+      margin: 20px auto;
+      width: 80%;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" id="search-box" placeholder="Search by customer name">
+  <table id="customer-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Total Transaction Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Table rows will be dynamically added here -->
+    </tbody>
+  </table>
+  <canvas id="transaction-chart"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Include Chart.js library -->
+  <script src="hi.js">
+    // JavaScript code will go here
+  </script>
+</body>
+</html>
+
+
+
